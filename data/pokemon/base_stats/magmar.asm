@@ -1,6 +1,6 @@
 	db DEX_MAGMAR ; pokedex id
 
-	db  65,  95,  57,  93,  95
+	db  65,  95,  57,  93,  85
 	;   hp  atk  def  spd  spc
 
 	db FIRE, FIRE ; type
@@ -21,4 +21,4 @@
 	     PSYWAVE,      SUBSTITUTE,   STRENGTH
 	; end
 
-	db 0 ; padding
+	db BANK(MagmarPicFront)

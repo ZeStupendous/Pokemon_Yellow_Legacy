@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/tentacruel.pic", 0, 1 ; sprite dimensions
 	dw TentacruelPicFront, TentacruelPicBack
 
-	db WRAP, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db ACID, SUPERSONIC, WRAP, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
@@ -20,4 +20,4 @@
 	     SKULL_BASH,   REST,         SUBSTITUTE,   CUT,          SURF
 	; end
 
-	db 0 ; padding
+	db BANK(TentacruelPicFront)

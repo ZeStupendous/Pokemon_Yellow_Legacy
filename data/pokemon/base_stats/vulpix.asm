@@ -1,6 +1,6 @@
 	db DEX_VULPIX ; pokedex id
 
-	db  45,  41,  45,  75,  70
+	db  45,  45,  45,  75,  70
 	;   hp  atk  def  spd  spc
 
 	db FIRE, FIRE ; type
@@ -19,4 +19,4 @@
 	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE
 	; end
 
-	db 0 ; padding
+	db BANK(VulpixPicFront)

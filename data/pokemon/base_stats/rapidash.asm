@@ -1,6 +1,6 @@
 	db DEX_RAPIDASH ; pokedex id
 
-	db  65, 100,  70, 115,  80
+	db  70, 100,  70, 115,  80
 	;   hp  atk  def  spd  spc
 
 	db FIRE, FIRE ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/rapidash.pic", 0, 1 ; sprite dimensions
 	dw RapidashPicFront, RapidashPicBack
 
-	db EMBER, TAIL_WHIP, NO_MOVE, NO_MOVE ; level 1 learnset
+	db EMBER, TAIL_WHIP, STOMP, GROWL ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
@@ -20,4 +20,4 @@
 	     SUBSTITUTE
 	; end
 
-	db 0 ; padding
+	db BANK(RapidashPicFront)

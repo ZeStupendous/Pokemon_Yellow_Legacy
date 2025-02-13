@@ -1,6 +1,6 @@
 	db DEX_WARTORTLE ; pokedex id
 
-	db  59,  63,  80,  58,  65
+	db  60,  65,  80,  60,  70
 	;   hp  atk  def  spd  spc
 
 	db WATER, WATER ; type
@@ -21,4 +21,4 @@
 	     REST,         SUBSTITUTE,   SURF,         STRENGTH
 	; end
 
-	db 0 ; padding
+	db BANK(WartortlePicFront)

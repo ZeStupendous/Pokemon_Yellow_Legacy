@@ -1,6 +1,6 @@
 	db DEX_VILEPLUME ; pokedex id
 
-	db  90,  80,  85,  50, 100
+	db  90,  80,  85,  55, 100
 	;   hp  atk  def  spd  spc
 
 	db GRASS, POISON ; type
@@ -20,4 +20,4 @@
 	     CUT
 	; end
 
-	db 0 ; padding
+	db BANK(VileplumePicFront)

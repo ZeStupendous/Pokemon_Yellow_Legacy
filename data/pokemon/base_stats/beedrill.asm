@@ -1,6 +1,6 @@
 	db DEX_BEEDRILL ; pokedex id
 
-	db  65,  80,  40,  75,  45
+	db  65,  85,  40,  85,  50
 	;   hp  atk  def  spd  spc
 
 	db BUG, POISON ; type
@@ -20,4 +20,4 @@
 	     CUT
 	; end
 
-	db 0 ; padding
+	db BANK(BeedrillPicFront)

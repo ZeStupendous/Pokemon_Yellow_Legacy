@@ -14,10 +14,10 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     RAGE,         MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     SKULL_BASH,      REST,         TRI_ATTACK,   SUBSTITUTE,              \
+	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  RAGE,           \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         SKULL_BASH,     \
+	     SKY_ATTACK,   REST,         TRI_ATTACK,   SUBSTITUTE,                   \
 	     FLY
 	; end
 
-	db 0 ; padding
+	db BANK(DoduoPicFront)

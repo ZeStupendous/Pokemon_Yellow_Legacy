@@ -1,6 +1,6 @@
 	db DEX_ARCANINE ; pokedex id
 
-	db  90, 110,  80,  95,  80
+	db  90, 110,  80,  95,  90
 	;   hp  atk  def  spd  spc
 
 	db FIRE, FIRE ; type
@@ -17,7 +17,7 @@
 	tmhm FLAMETHROWER, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   RAGE,         DRAGON_RAGE,  DIG,          TELEPORT,     \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         FIRE_BLAST,   \
-		 SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE
+	     SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE
 	; end
 
-	db 0 ; padding
+	db BANK(ArcaninePicFront)

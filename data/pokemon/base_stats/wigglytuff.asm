@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/wigglytuff.pic", 0, 1 ; sprite dimensions
 	dw WigglytuffPicFront, WigglytuffPicBack
 
-	db SING, DOUBLESLAP, NO_MOVE, NO_MOVE ; level 1 learnset
+	db SING, DISABLE, DEFENSE_CURL, DOUBLESLAP ; level 1 learnset
 	db GROWTH_FAST ; growth rate
 
 	; tm/hm learnset
@@ -23,4 +23,4 @@
 	     SUBSTITUTE,   STRENGTH,     FLASH
 	; end
 
-	db 0 ; padding
+	db BANK(WigglytuffPicFront)

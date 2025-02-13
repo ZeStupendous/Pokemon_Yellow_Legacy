@@ -1,6 +1,6 @@
 	db DEX_BULBASAUR ; pokedex id
 
-	db  45,  49,  49,  45,  65
+	db  45,  50,  50,  45,  65
 	;   hp  atk  def  spd  spc
 
 	db GRASS, POISON ; type
@@ -19,4 +19,4 @@
 	     REFLECT,      BIDE,         REST,         SUBSTITUTE,   CUT
 	; end
 
-	db 0 ; padding
+	db BANK(BulbasaurPicFront)
