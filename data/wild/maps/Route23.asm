@@ -6,10 +6,10 @@ Route23WildMons:
 	db 49, NIDOKING
 	db 49, NIDOQUEEN
 	db 50, FEAROW
-	db  5, SQUIRTLE
-	db  5, BULBASAUR
-	db  5, CHARMANDER
-	db  5, EEVEE
+	db 10, SQUIRTLE
+	db 10, BULBASAUR
+	db 10, CHARMANDER
+	db 20, EEVEE
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
